@@ -1,0 +1,25 @@
+
+step 01: first create json package 'npm init -y'
+
+step 02: then go to tailwind cli page and install
+		'npm install -D tailwindcss'
+		'npx tailwindcss init'
+
+step 03: Add the paths to all of your template files in your tailwind.config.js file.
+		content: ['./*.html']
+
+step 04: create input.css and add the @tailwind directives for each 
+	 of Tailwind’s layers to your main CSS file.
+
+step 05: go to package.json and modify script
+	 "scripts": {
+	        "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    		"watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+	  },
+
+step 06: open bash and write it 'npm run build'
+
+step 07: create index.html and use tailwindcss
+
+step 08: we have to then 'npm run watch' to start
+

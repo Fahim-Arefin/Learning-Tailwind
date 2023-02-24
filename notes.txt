@@ -1,0 +1,5 @@
+installvs code extension 
+---------------------------------
+1. Tailwind CSS IntelliSense
+2. PostCSS Language Support
+3. Prettier - Code formatter			
