@@ -19,7 +19,10 @@ step 05: go to package.json and modify script
 
 step 06: open bash and write it 'npm run build'
 
-step 07: create index.html and use tailwindcss
+step 07: create index.html, link the stylesheet 'css/style.css' and use tailwindcss
 
 step 08: we have to then 'npm run watch' to start
 
+step 09: we have to run the bash command as long as we change 
+	 means 'npm run watch' korar por off korbona bash ta
+ 
